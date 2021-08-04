@@ -4,5 +4,5 @@
 ## Credits  
 Opencore  
 hackintosh107
-![Screenshot](https://github.com/yahgoo/Hackintosh-HP-9470m-Opencore-Monterey/blob/main/Screenshot%202021-08-04%20at%2011.37.25%20AM.png)
+![Screenshot](https://github.com/yahgoo/Hackintosh-HP-9470m-Opencore-Monterey/blob/main/img/Screen%20Shot%202021-08-04%20at%204.00.17%20PM.png)
 
