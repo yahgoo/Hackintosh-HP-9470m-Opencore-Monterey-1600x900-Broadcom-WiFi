@@ -1,5 +1,6 @@
 # HP 9470m Opencore Monterey
-* Opencore EFI for HP Elitebook 9470m running Monterey Beta 4
+* Opencore EFI for HP Elitebook 9470m running Monterey Beta 4  
+* Not Working - Bluetooth
 ## Credits  
 Opencore  
 hackintosh107
