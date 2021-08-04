@@ -1,6 +1,6 @@
 # HP 9470m Opencore Monterey
 * Opencore EFI for HP Elitebook 9470m running Monterey Beta 4  
-* Not Working - Bluetooth
+* Bluetooth fixed with BlueToolFixup.kext and enable only AirPortBrcmNIC_Injector.kext
 ## Credits  
 Opencore  
 hackintosh107
