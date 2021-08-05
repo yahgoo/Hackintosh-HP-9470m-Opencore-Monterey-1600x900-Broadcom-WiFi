@@ -16,7 +16,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-9x70.aml</string>
+				<string>SSDT-9x70.aml from hackintosh107</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -24,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC.aml</string>
+				<string>Fake EC for laptop which is used for hotkeys and battery. From SSDTtime</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-FAN-READ.aml</string>
+				<string>Fan or temperature readings only (fan behavior is BIOS)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -40,7 +40,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-HPET.aml</string>
+				<string>HPET _CRS to XCRS Rename, Patch: IPIC IRQ, RTC IRQ, TIMR IRQ</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -48,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-LANC.aml</string>
+				<string>LANC in DSDT.dsl. Dortania's Prebuilt</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -56,7 +56,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-LPC.aml</string>
+				<string>SSDT-LPC.aml from hackintosh107</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -64,7 +64,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PM.aml</string>
+				<string>Power Management for Ivy Bridge i7-3687U. From ssdtPRgen with userdefined.cfg</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -72,7 +72,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PNLF.aml</string>
+				<string>Fix backlight. Dortania's Prebuilt</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -80,7 +80,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
+				<string>Fix SMBus support. Dortania's Prebuilt</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -88,7 +88,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-UPRW.aml</string>
+				<string>UPRW in DSDT.dsl. Dortania's Prebuilt</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -96,7 +96,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-XOSI.aml</string>
+				<string>Fix for dual boot with Windows. Dortania's Prebuilt</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -701,7 +701,7 @@
 				<key>BundlePath</key>
 				<string>ECEnabler.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Enables Battery Indicator</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -937,7 +937,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/HSSDBlockStorage</string>
 				<key>MaxKernel</key>
@@ -955,7 +955,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/JMB38X</string>
 				<key>MaxKernel</key>
@@ -973,7 +973,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/JMicronATA</string>
 				<key>MaxKernel</key>
