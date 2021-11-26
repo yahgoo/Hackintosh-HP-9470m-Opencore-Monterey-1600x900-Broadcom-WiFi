@@ -1,4 +1,4 @@
-# HP 9470m Opencore Monterey 1600x900 Broadcom WiFi
+## HP 9470m Opencore Monterey 1600x900 Broadcom WiFi
 * Opencore EFI for HP Elitebook 9470m 1600x900 Broadcom WiFi running Monterey Beta 4  
 * Bluetooth fixed with BlueToolFixup.kext and enable only AirPortBrcmNIC_Injector.kext
 * ECEnabler.kext to enable Battery Indicator. Please ignore the BTST and BTIF errors during macos installation as ECEnabler.kext is not yet loaded.
