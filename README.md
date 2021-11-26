@@ -2,7 +2,7 @@
 * Opencore EFI for HP Elitebook 9470m 1600x900 Broadcom WiFi running Monterey Beta 4  
 * Bluetooth fixed with BlueToolFixup.kext and enable only AirPortBrcmNIC_Injector.kext
 * ECEnabler.kext to enable Battery Indicator. Please ignore the BTST and BTIF errors during macos installation as ECEnabler.kext is not yet loaded.
-* HD4000 patched with patchHD400
+* HD4000 patched with patchHD4000
 ## Credits  
 Opencore  
 hackintosh107  
