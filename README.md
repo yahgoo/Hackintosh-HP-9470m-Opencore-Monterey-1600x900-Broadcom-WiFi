@@ -1,14 +1,22 @@
 ## HP 9470m Opencore Monterey 1600x900 Broadcom WiFi
-* Opencore EFI for HP Elitebook 9470m 1600x900 Broadcom WiFi running Monterey Beta 4  
+* Opencore EFI for HP Elitebook 9470m 1600x900 Broadcom WiFi running Monterey 12.2.1
 * Bluetooth fixed with BlueToolFixup.kext and enable only AirPortBrcmNIC_Injector.kext
 * ECEnabler.kext to enable Battery Indicator. Please ignore the BTST and BTIF errors during macos installation as ECEnabler.kext is not yet loaded.
-* HD4000 patched with patchHD4000
+* HD4000 patched with OC 0.7.9 Post Install Root Patch  
+
 ## Credits  
 Opencore  
-hackintosh107  
-chris1111  
+hackintosh107
+InsanelyMac - Miliuco
+1Revenger
 
-![Screenshot](https://github.com/yahgoo/Hackintosh-HP-9470m-Opencore-Monterey/blob/main/img/Screen%20Shot%202021-08-04%20at%204.00.17%20PM.png)
+## Changes
+06042022
+- Updated to MacOS Monterey 12.2.1
+- Updated to OC 0.7.9 and latest kexts like VirtualSMC
+- SMBIOS iMac17,1 in order for OC 0.7.3 and above to boot
+
+![Screenshot](https://github.com/yahgoo/Hackintosh-HP-9470m-Opencore-Monterey-1600x900-Broadcom-WiFi/blob/main/img/HP9470m%20Monterey%2012-2-1%20iPad%20Mini%206%20Purple.png)
 
 <p align="center">
   <img width="400" height="300" src="/img/HP_9470m.png">
@@ -29,8 +37,8 @@ chris1111
 * Fingerprint: Synaptics Fingerprint Sensors
 
 # Version: 
-* OpenCore: 0.7.2
-* macOS: 12.0.1 (Monterey)
+* OpenCore: 0.7.9
+* macOS: Monterey 12.2.1
 
 # BIOS settings:
 * Boot mode: UEFI Native (without CSM)
@@ -55,4 +63,25 @@ chris1111
 - [ ] Synaptics Fingerprint Sensors
 
 # SMBIOS:
-iMac16,1
+iMac17,1
+
+## Set bios settings as follows:
+Advanced tab:  
+Boot options:  
+- Fast Boot = Disabled
+- Network (PXE) Boot = Disabled  
+Secure Boot Configuration:
+- "Legacy Support Enable and Secure Boot Disable"  
+System Options:  
+- Virtualization Technology (VTx) = Disabled (recommended, Enable also worked)
+- Virtualization Technology for Direct I/O (VTd) = Disabled (recommended, Enable also worked)  
+Built-In Device Options:  
+- Wake On LAN = Disabled
+- Video memory size = 64 MB
+- LAN/WLAN Auto Switching = Disabled
+- Fingerprint Device = Disabled  
+Power Management Options:  
+- Extended Idle Power States = Disabled
+- Deep sleep = You can keep this enabled
+- Wake when Lid is Opened = Enabled
+- Wake on USB = Disabled
