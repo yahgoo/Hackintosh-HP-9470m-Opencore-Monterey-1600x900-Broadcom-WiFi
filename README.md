@@ -3,18 +3,21 @@
 * Bluetooth fixed with BlueToolFixup.kext and enable only AirPortBrcmNIC_Injector.kext
 * ECEnabler.kext to enable Battery Indicator. Please ignore the BTST and BTIF errors during macos installation as ECEnabler.kext is not yet loaded.
 * HD4000 patched with OC 0.7.9 Post Install Root Patch  
+* Rename Monterey System Volume name with Disk Utility. According to @miliuco, the workaround is to install Intel Power Gadget in order to update both the OC boot menu entry and the preboot volume with new name.
 
 ## Credits  
 Opencore  
-hackintosh107
-InsanelyMac - Miliuco
-1Revenger
+hackintosh107  
+InsanelyMac - Miliuco  
+1Revenger  
+Robbish  
+Sirsasana  
 
 ## Changes
 06042022
 - Updated to MacOS Monterey 12.2.1
 - Updated to OC 0.7.9 and latest kexts like VirtualSMC
-- SMBIOS iMac17,1 in order for OC 0.7.3 and above to boot
+- SMBIOS iMac17,1 in order for OC 0.7.3 and above to boot and bypass the prompt that “a required firmware update could not be installed” during installation. 
 
 ![Screenshot](https://github.com/yahgoo/Hackintosh-HP-9470m-Opencore-Monterey-1600x900-Broadcom-WiFi/blob/main/img/HP9470m%20Monterey%2012-2-1%20iPad%20Mini%206%20Purple.png)
 
@@ -40,10 +43,6 @@ InsanelyMac - Miliuco
 * OpenCore: 0.7.9
 * macOS: Monterey 12.2.1
 
-# BIOS settings:
-* Boot mode: UEFI Native (without CSM)
-* SATA mode: AHCI
-
 # Working:
 - [x] Intel HD Graphics 4000
 - [x] Sleep
@@ -61,9 +60,6 @@ InsanelyMac - Miliuco
 - [x] Fn function keys
 - [ ] Card reader
 - [ ] Synaptics Fingerprint Sensors
-
-# SMBIOS:
-iMac17,1
 
 ## Set bios settings as follows:
 Advanced tab:  
