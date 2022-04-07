@@ -19,12 +19,12 @@ Sirsasana
 - Updated to OC 0.8.0 and latest kexts
 - SMBIOS MacBookPro13,1 in order for battery indicator to work
 
+![Screenshot](https://github.com/yahgoo/Hackintosh-HP-9470m-Opencore-Monterey-1600x900-Broadcom-WiFi/blob/main/img/HP9470m%20Monterey%2012-2-1%20iPad%20Mini%206%20Purple.png)
+
 06042022
 - Updated to MacOS Monterey 12.2.1
 - Updated to OC 0.7.9 and latest kexts like VirtualSMC
 - SMBIOS iMac17,1 in order for OC 0.7.3 and above to boot and bypass the prompt that “a required firmware update could not be installed” during installation. 
-
-![Screenshot](https://github.com/yahgoo/Hackintosh-HP-9470m-Opencore-Monterey-1600x900-Broadcom-WiFi/blob/main/img/HP9470m%20Monterey%2012-2-1%20iPad%20Mini%206%20Purple.png)
 
 <p align="center">
   <img width="400" height="300" src="/img/HP_9470m.png">
