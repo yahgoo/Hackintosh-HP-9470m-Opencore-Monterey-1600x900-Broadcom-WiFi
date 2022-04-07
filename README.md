@@ -2,7 +2,7 @@
 * Opencore EFI for HP Elitebook 9470m 1600x900 Broadcom WiFi running Monterey 12.2.1
 * Bluetooth fixed with BlueToolFixup.kext and enable only AirPortBrcmNIC_Injector.kext
 * ECEnabler.kext to enable Battery Indicator. Please ignore the BTST and BTIF errors during macos installation as ECEnabler.kext is not yet loaded.
-* HD4000 patched with OC 0.7.9 Post Install Root Patch  
+* HD4000 patched with OC 0.8.0 Post Install Root Patch  
 * Rename Monterey System Volume name with Disk Utility. According to @miliuco, the workaround is to install Intel Power Gadget in order to update both the OC boot menu entry and the preboot volume with new name.
 
 ## Credits  
@@ -14,6 +14,11 @@ Robbish
 Sirsasana  
 
 ## Changes
+07042022
+- Reverted to MacOS Monterey 12.2.1 because many apps like Whatsapp and vs Code crashed on Monterey 12.3.1 
+- Updated to OC 0.8.0 and latest kexts
+- SMBIOS MacBookPro13,1 in order for battery indicator to work
+
 06042022
 - Updated to MacOS Monterey 12.2.1
 - Updated to OC 0.7.9 and latest kexts like VirtualSMC
